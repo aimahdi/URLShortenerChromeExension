@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener By AIM</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Shorten your URL</h1>
+        <label for="url">Enter URL:</label>
+        <input type="text" id="url" name="url" placeholder="Enter a URL here">
+        <button type="submit" id="shortURL">Shorten</button>
+        <div id="loadingSpinner" class="hidden"></div>
+        <br>
+        <br>
+        <div id="resultDiv">
+            <input type="text" id="resultURL">
+            <br>
+            <br>
+            <button id="copyButton">Copy URL</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
